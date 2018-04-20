@@ -9,21 +9,17 @@ import form.Form;
 public class Director {
     private Form form;
 
-    public Director(Form form) {
+    Director(Form form) {
         this.form = form;
     }
 
+    /**
+     * 指挥器定义窗体构建部件  主窗口 编辑窗口  日志窗口
+     */
     public void buildForm() {
-        form.createMainForm();
-
-        form.createEditForm();
-
+        form.createMainForm("测试窗体");
+        form.createEditForm("1");
         form.createMessageArea();
-
         form.setFormVisible();
-    }
-
-    public static void main(String[] args) {
-        new Director(new Form(3, 3)).buildForm();
     }
 }
