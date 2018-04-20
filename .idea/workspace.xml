@@ -6,23 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd07c490-8205-4052-a44b-c7dccae4d6f2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="cd07c490-8205-4052-a44b-c7dccae4d6f2" name="Default" comment="部分代码优化  日志信息新增日期">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/swingtools_jar/swingtools_jar.jar" afterPath="$PROJECT_DIR$/out/artifacts/swingtools_jar/swingtools_jar.jar" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Director.java" afterPath="$PROJECT_DIR$/src/main/java/Director.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/form/AbstractForm.java" afterPath="$PROJECT_DIR$/src/main/java/form/AbstractForm.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/form/Form.java" afterPath="$PROJECT_DIR$/src/main/java/form/Form.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/form/MainForm.form" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/Strategy1.java" afterPath="$PROJECT_DIR$/src/main/java/strategy/TestStrategy.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/StrategyFactory.java" afterPath="$PROJECT_DIR$/src/main/java/strategy/StrategyFactory.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Director.class" afterPath="$PROJECT_DIR$/target/classes/Director.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/form/AbstractForm.class" afterPath="$PROJECT_DIR$/target/classes/form/AbstractForm.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/form/Form.class" afterPath="$PROJECT_DIR$/target/classes/form/Form.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/strategy/Strategy1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/strategy/StrategyFactory.class" afterPath="$PROJECT_DIR$/target/classes/strategy/StrategyFactory.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,8 +49,8 @@
       <file leaf-file-name="Form.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/form/Form.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+            <state relative-caret-position="220">
+              <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4949#4950#0" expanded="true" />
@@ -281,7 +266,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="378" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -461,8 +446,16 @@
       <workItem from="1523085520694" duration="2276000" />
       <workItem from="1523096130767" duration="1678000" />
       <workItem from="1523108427488" duration="49000" />
-      <workItem from="1524213106886" duration="4861000" />
+      <workItem from="1524213106886" duration="5119000" />
     </task>
+    <task id="LOCAL-00001" summary="部分代码优化  日志信息新增日期">
+      <created>1524218006800</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1524218006801</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -498,7 +491,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23747000" />
+    <option name="totallyTimeSpent" value="24005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -522,8 +515,8 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15683962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15683962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26877683" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -541,8 +534,38 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="部分代码优化  日志信息新增日期" />
+    <option name="LAST_COMMIT_MESSAGE" value="部分代码优化  日志信息新增日期" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -922,8 +945,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/form/Form.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="44" column="33" lean-forward="true" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+        <state relative-caret-position="220">
+          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4949#4950#0" expanded="true" />
