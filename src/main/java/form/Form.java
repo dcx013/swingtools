@@ -1,7 +1,6 @@
 package form;
 
 import strategy.Strategy;
-import strategy.StrategyFactory;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -95,14 +94,13 @@ public class Form implements AbstractForm {
     }
 
     @Override
-    public void createEditForm(String strategyType) {
+    public void createEditForm(Strategy strategy) {
         inputArea.setPreferredSize(new Dimension(200, MAIN_HEIGHT));
         createInputArea();
 
         buttonArea.setPreferredSize(new Dimension(100, 50));
         executeButton.addActionListener(e -> {
             System.out.println("点击按钮");
-            Strategy strategy = StrategyFactory.getStrategy(strategyType);
             StringBuilder messageHistory = new StringBuilder(message.getText());
             if (strategy == null) {
                 messageHistory.append("算法不存在\n");
@@ -163,6 +161,7 @@ public class Form implements AbstractForm {
     /**
      * 窗口默认是不可见的
      */
+    @Override
     public void setFormVisible() {
         main.setVisible(true);
     }

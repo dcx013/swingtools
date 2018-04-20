@@ -1,0 +1,36 @@
+@startuml
+interface Strategy{
+{abstract}String[] working(String... args)
+}
+
+Strategy <|.. TestStrategy
+class TestStrategy{
+}
+
+Strategy <-- StrategyFactory
+class StrategyFactory{
+{static}Strategy getStrategy(String type)
+}
+
+Strategy <.. AbstractForm
+interface AbstractForm{
+{abstract}void createMainForm(String titleText)
+{abstract}void createEditForm(Strategy strategy)
+{abstract}void createMessageArea()
+{abstract}void setFormVisible()
+}
+
+AbstractForm <|.. Form
+class Form{
+}
+
+StrategyFactory <.. Director
+AbstractForm <..* Director
+class Director{
+void buildForm(String strategyType)
+}
+
+Director <.. Main
+class Main{
+}
+@enduml

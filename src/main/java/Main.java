@@ -6,6 +6,6 @@ import form.Form;
  */
 public class Main {
     public static void main(String[] args) {
-        new Director(new Form(1, 2)).buildForm();
+        new Director(new Form(2, 2)).buildForm("1");
     }
 }
